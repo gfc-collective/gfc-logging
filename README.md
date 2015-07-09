@@ -1,4 +1,5 @@
-# gfc-logging
+# gfc-logging [![Build Status](https://travis-ci.org/gilt/gfc-logging.svg?branch=master)](https://travis-ci.org/gilt/gfc-logging) [![Coverage Status](https://coveralls.io/repos/gilt/gfc-logging/badge.svg?branch=master&service=github)](https://coveralls.io/github/gilt/gfc-logging?branch=master)
+
 
 A library that contains logging related scala utility classes. Part of the gilt foundation classes.
 
