@@ -2,9 +2,9 @@ name := "gfc-logging"
 
 organization := "com.gilt"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.7"
 
-crossScalaVersions := Seq("2.11.5", "2.10.4")
+crossScalaVersions := Seq("2.11.7", "2.10.5")
 
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.10",
