@@ -2,13 +2,13 @@ name := "gfc-logging"
 
 organization := "com.gilt"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
-crossScalaVersions := Seq("2.11.7", "2.10.5")
+crossScalaVersions := Seq("2.11.8", "2.10.5")
 
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.18",
-  "org.scalatest" %% "scalatest" % "2.2.5" % "test"
+  "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 )
 
 releaseCrossBuild := true
