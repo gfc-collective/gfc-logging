@@ -7,7 +7,7 @@ scalaVersion := "2.11.8"
 crossScalaVersions := Seq("2.11.8", "2.10.5")
 
 libraryDependencies ++= Seq(
-  "org.slf4j" % "slf4j-api" % "1.7.18",
+  "org.slf4j" % "slf4j-api" % "1.7.20",
   "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 )
 
