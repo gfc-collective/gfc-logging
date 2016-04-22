@@ -9,9 +9,7 @@ object Loggable {
 trait Loggable {
   import Loggable.LvlFatal
 
-  def loggerName: String = getClass.getName
-
-  @transient private[this] lazy val logger = LoggerFactory.getLogger(loggerName)
+  @transient private[this] val logger = LoggerFactory.getLogger(getClass.getName)
 
   protected def trace(message: => String) = if (logger.isTraceEnabled) logger.trace(message)
   protected def trace(message: => String, ex:Throwable) = if (logger.isTraceEnabled) logger.trace(message,ex)
