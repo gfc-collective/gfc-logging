@@ -8,7 +8,7 @@ crossScalaVersions := Seq("2.11.8", "2.10.5")
 
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.21",
-  "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.0" % "test"
 )
 
 releaseCrossBuild := true
