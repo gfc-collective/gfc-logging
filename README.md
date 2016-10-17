@@ -1,12 +1,26 @@
 # gfc-logging [![Build Status](https://travis-ci.org/gilt/gfc-logging.svg?branch=master)](https://travis-ci.org/gilt/gfc-logging) [![Coverage Status](https://coveralls.io/repos/gilt/gfc-logging/badge.svg?branch=master&service=github)](https://coveralls.io/github/gilt/gfc-logging?branch=master) [![Join the chat at https://gitter.im/gilt/gfc](https://badges.gitter.im/gilt/gfc.svg)](https://gitter.im/gilt/gfc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-
 A library that contains logging related scala utility classes. Part of the gilt foundation classes.
+
+## Getting gfc-logging
+
+The latest version is 0.0.6, which is cross-built against Scala 2.10.x, 2.11.x and 2.12.0-RC1.
+
+If you're using SBT, add the following line to your build file:
+
+```scala
+libraryDependencies += "com.gilt" %% "gfc-logging" % "0.0.6"
+```
+
+For Maven and other build tools, you can visit [search.maven.org](http://search.maven.org/#search%7Cga%7C1%7Ccom.gilt%20gfc).
+(This search will also list other available libraries from the gilt fundation classes.)
+
+## Contents and Example Usage
+
+### com.gilt.gfc.logging.Loggable
 
 The com.gilt.gfc.logging.Loggable trait can be mixed in to add a logger instance to a type that
 uses slf4j to abstract the underlying logging framework and supports lazy log message computation.
-
-## Example Usage
 
 A logger instance with each instance of this trait:
 
