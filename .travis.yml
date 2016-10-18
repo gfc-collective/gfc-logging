@@ -5,5 +5,5 @@ scala:
   - 2.10.6
 jdk:
   - oraclejdk8
-script: "sbt ++$TRAVIS_SCALA_VERSION clean coverage test"
-after_success: "sbt coveralls"
+script: sbt ++$TRAVIS_SCALA_VERSION clean coverage test coverageReport && sbt ++$TRAVIS_SCALA_VERSION coverageAggregate
+after_success: sbt ++$TRAVIS_SCALA_VERSION coveralls
