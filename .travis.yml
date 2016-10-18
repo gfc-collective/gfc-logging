@@ -5,5 +5,5 @@ scala:
   - 2.10.6
 jdk:
   - oraclejdk8
-script: "sbt clean coverage test"
+script: "sbt ++$TRAVIS_SCALA_VERSION clean coverage test"
 after_success: "sbt coveralls"
