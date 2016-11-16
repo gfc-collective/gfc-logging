@@ -1,6 +1,6 @@
 # gfc-logging [![Build Status](https://travis-ci.org/gilt/gfc-logging.svg?branch=master)](https://travis-ci.org/gilt/gfc-logging) [![Coverage Status](https://coveralls.io/repos/gilt/gfc-logging/badge.svg?branch=master&service=github)](https://coveralls.io/github/gilt/gfc-logging?branch=master) [![Join the chat at https://gitter.im/gilt/gfc](https://badges.gitter.im/gilt/gfc.svg)](https://gitter.im/gilt/gfc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-A library that contains logging related scala utility classes. Part of the [Gilt Foundation Classes](https://github.com/gilt?query=gfc).
+A library that contains logging related scala utility classes. Part of the [Gilt Foundation Classes](https://github.com/gilt?q=gfc).
 
 ## Getting gfc-logging
 
