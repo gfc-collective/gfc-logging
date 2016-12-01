@@ -8,6 +8,8 @@ crossScalaVersions := Seq(scalaVersion.value, "2.12.0", "2.10.6")
 
 scalacOptions += "-target:jvm-1.7"
 
+javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
+
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.21",
   "org.scalatest" %% "scalatest" % "3.0.1" % "test"
