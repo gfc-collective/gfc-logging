@@ -43,6 +43,6 @@ A logger singleton for all instances of the companion class:
     }
 
 ## License
-Copyright 2014 Gilt Groupe, Inc.
+Copyright 2017 Gilt Groupe, Inc.
 
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
