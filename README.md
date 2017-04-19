@@ -4,12 +4,12 @@ A library that contains logging related scala utility classes. Part of the [Gilt
 
 ## Getting gfc-logging
 
-The latest version is 0.0.7, which is cross-built against Scala 2.10.x, 2.11.x and 2.12.x.
+The latest version is 0.0.8, which is cross-built against Scala 2.10.x, 2.11.x and 2.12.x.
 
 If you're using SBT, add the following line to your build file:
 
 ```scala
-libraryDependencies += "com.gilt" %% "gfc-logging" % "0.0.7"
+libraryDependencies += "com.gilt" %% "gfc-logging" % "0.0.8"
 ```
 
 For Maven and other build tools, you can visit [search.maven.org](http://search.maven.org/#search%7Cga%7C1%7Ccom.gilt%20gfc).
