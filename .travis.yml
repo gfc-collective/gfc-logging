@@ -1,9 +1,0 @@
-language: scala
-scala:
-  - 2.12.10
-  - 2.13.1
-jdk:
-  - openjdk8
-  - openjdk11
-script: sbt ++$TRAVIS_SCALA_VERSION clean coverage test coverageReport && sbt ++$TRAVIS_SCALA_VERSION coverageAggregate
-after_success: sbt ++$TRAVIS_SCALA_VERSION coveralls
