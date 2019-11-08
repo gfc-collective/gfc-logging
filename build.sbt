@@ -11,7 +11,7 @@ scalacOptions += "-target:jvm-1.8"
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
 libraryDependencies ++= Seq(
-  "org.slf4j" % "slf4j-api" % "1.7.28",
+  "org.slf4j" % "slf4j-api" % "1.7.29",
   "org.scalatest" %% "scalatest" % "3.0.8" % Test
 )
 
