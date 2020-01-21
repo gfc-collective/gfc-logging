@@ -1,4 +1,4 @@
-package com.gilt.gfc.logging
+package org.gfccollective.logging
 
 import org.slf4j.{LoggerFactory, MarkerFactory}
 

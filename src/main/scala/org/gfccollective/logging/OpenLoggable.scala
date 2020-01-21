@@ -1,4 +1,4 @@
-package com.gilt.gfc.logging
+package org.gfccollective.logging
 
 /**
  * Opens up protected log functions in Loggable so they are accessible e.g. through a companion object,

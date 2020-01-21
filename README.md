@@ -1,4 +1,4 @@
-# gfc-logging [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.gilt/gfc-logging_2.12/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/com.gilt/gfc-logging_2.12) [![Build Status](https://travis-ci.org/gilt/gfc-logging.svg?branch=master)](https://travis-ci.org/gilt/gfc-logging) [![Coverage Status](https://coveralls.io/repos/gilt/gfc-logging/badge.svg?branch=master&service=github)](https://coveralls.io/github/gilt/gfc-logging?branch=master) [![Join the chat at https://gitter.im/gilt/gfc](https://badges.gitter.im/gilt/gfc.svg)](https://gitter.im/gilt/gfc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# gfc-logging [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.gfccollective/gfc-logging_2.12/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/org.gfccollective/gfc-logging_2.12) [![Build Status](https://travis-ci.org/gilt/gfc-logging.svg?branch=master)](https://travis-ci.org/gilt/gfc-logging) [![Coverage Status](https://coveralls.io/repos/gilt/gfc-logging/badge.svg?branch=master&service=github)](https://coveralls.io/github/gilt/gfc-logging?branch=master) [![Join the chat at https://gitter.im/gilt/gfc](https://badges.gitter.im/gilt/gfc.svg)](https://gitter.im/gilt/gfc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A library that contains logging related scala utility classes. Part of the [Gilt Foundation Classes](https://github.com/gilt?q=gfc).
 
@@ -9,17 +9,17 @@ The latest version is 0.0.8, which is cross-built against Scala 2.10.x, 2.11.x a
 If you're using SBT, add the following line to your build file:
 
 ```scala
-libraryDependencies += "com.gilt" %% "gfc-logging" % "0.0.8"
+libraryDependencies += "org.gfccollective" %% "gfc-logging" % "0.0.8"
 ```
 
-For Maven and other build tools, you can visit [search.maven.org](http://search.maven.org/#search%7Cga%7C1%7Ccom.gilt%20gfc).
+For Maven and other build tools, you can visit [search.maven.org](http://search.maven.org/#search%7Cga%7C1%7Corg.gfccollective%20gfc).
 (This search will also list other available libraries from the gilt fundation classes.)
 
 ## Contents and Example Usage
 
-### com.gilt.gfc.logging.Loggable
+### org.gfccollective.logging.Loggable
 
-The com.gilt.gfc.logging.Loggable trait can be mixed in to add a logger instance to a type that
+The org.gfccollective.logging.Loggable trait can be mixed in to add a logger instance to a type that
 uses slf4j to abstract the underlying logging framework and supports lazy log message computation.
 
 A logger instance with each instance of this trait:
