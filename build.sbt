@@ -1,3 +1,5 @@
+import scoverage.ScoverageKeys
+
 name := "gfc-logging"
 
 organization := "org.gfccollective"
@@ -9,6 +11,10 @@ crossScalaVersions := Seq(scalaVersion.value, "2.13.3")
 scalacOptions += "-target:jvm-1.8"
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
+
+ScoverageKeys.coverageFailOnMinimum := true
+
+ScoverageKeys.coverageMinimum := 18.0
 
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.30",
