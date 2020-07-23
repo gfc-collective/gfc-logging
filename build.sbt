@@ -2,7 +2,7 @@ name := "gfc-logging"
 
 organization := "org.gfccollective"
 
-scalaVersion := "2.12.11"
+scalaVersion := "2.12.12"
 
 crossScalaVersions := Seq(scalaVersion.value, "2.13.3")
 
