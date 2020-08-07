@@ -19,7 +19,7 @@ ScoverageKeys.coverageMinimum := 18.0
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.30",
   "org.slf4j" % "slf4j-simple" % "1.7.30" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.0" % Test
+  "org.scalatest" %% "scalatest" % "3.2.1" % Test
 )
 
 releaseCrossBuild := true
