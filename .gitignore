@@ -3,5 +3,6 @@ project/target/
 target/
 test-output/
 .idea/
+.bsp/
 *.class
 out
