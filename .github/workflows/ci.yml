@@ -23,10 +23,4 @@ jobs:
     - name: print Java version
       run: java -version
     - name: Run tests
-      run: sbt clean +coverage +test +coverageReport
-    - name: Aggregate coverage
-      run: sbt +coverageAggregate
-    - name: Coveralls publish
-      run: sbt +coveralls
-      env:
-        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+      run: sbt clean +test
