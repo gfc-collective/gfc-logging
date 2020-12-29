@@ -50,10 +50,6 @@ licenses := Seq("Apache-style" -> url("https://raw.githubusercontent.com/gfc-col
 homepage := Some(url("https://github.com/gfc-collective/gfc-logging"))
 
 pomExtra := (
-  <scm>
-    <url>https://github.com/gfc-collective/gfc-logging.git</url>
-    <connection>scm:git:git@github.com:gfc-collective/gfc-logging.git</connection>
-  </scm>
   <developers>
     <developer>
       <id>gheine</id>
