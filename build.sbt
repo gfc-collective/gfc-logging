@@ -6,7 +6,7 @@ organization := "org.gfccollective"
 
 scalaVersion := "2.12.13"
 
-crossScalaVersions := Seq(scalaVersion.value, "2.13.5", "3.0.0-RC3")
+crossScalaVersions := Seq(scalaVersion.value, "2.13.5", "3.0.0")
 
 scalacOptions += "-target:jvm-1.8"
 
@@ -28,7 +28,7 @@ ScoverageKeys.coverageMinimum := 18.0
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.30",
   "org.slf4j" % "slf4j-simple" % "1.7.30" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.8" % Test
+  "org.scalatest" %% "scalatest" % "3.2.9" % Test
 )
 
 publishMavenStyle := true
