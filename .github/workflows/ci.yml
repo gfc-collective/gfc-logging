@@ -22,8 +22,6 @@ jobs:
       with:
         distribution: 'zulu'
         java-version: ${{ matrix.java }}
-    - name: print Java version
-      run: java -version
     - name: Run tests
       run: sbt +clean +test
 
