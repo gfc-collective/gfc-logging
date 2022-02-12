@@ -2,17 +2,17 @@ package org.gfccollective.logging;
 
 import org.scalatest.flatspec.AnyFlatSpec;
 
-class LoggableTest extends AnyFlatSpec {
+class OpenLoggableTest extends AnyFlatSpec {
     behavior of "a Loggable class"
 
     it should "log" in {
-        val hello = new HelloWorld()
+        val hello = new HelloOpenLoggable()
         hello.logEverything()
     }
     
 }
 
-class HelloWorld extends Loggable {
+class HelloOpenLoggable extends OpenLoggable {
     def logEverything(): Unit = {
         val throwable = new DummyException()
         trace("Hello trace")
