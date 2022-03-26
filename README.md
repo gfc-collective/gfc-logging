@@ -26,14 +26,17 @@ uses slf4j to abstract the underlying logging framework and supports lazy log me
 
 A logger instance with each instance of this trait:
 
+```scala
     trait SomeTrait extends AnotherTrait with Loggable {
       def logSomething: Unit = {
         info("This " + "String" + " is " + "constructed" + " lazily")
       }
     }
+```
 
 A logger singleton for all instances of the companion class:
 
+```scala
     object SomeThing extends OpenLoggable
 
     class SomeThing {
@@ -43,6 +46,7 @@ A logger singleton for all instances of the companion class:
         info("This " + "String" + " is " + "constructed" + " lazily")
       }
     }
+```
 
 ## License
 
