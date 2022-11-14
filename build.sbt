@@ -4,9 +4,9 @@ name := "gfc-logging"
 
 organization := "org.gfccollective"
 
-scalaVersion := "2.12.16"
+scalaVersion := "2.12.17"
 
-crossScalaVersions := Seq(scalaVersion.value, "2.13.8", "3.2.0")
+crossScalaVersions := Seq(scalaVersion.value, "2.13.10", "3.2.0")
 
 javacOptions ++= Seq("-target", "1.8")
 
@@ -28,7 +28,7 @@ ScoverageKeys.coverageMinimumStmtTotal := 52.0
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.36",
   "org.slf4j" % "slf4j-simple" % "1.7.36" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.13" % Test
+  "org.scalatest" %% "scalatest" % "3.2.14" % Test
 )
 
 publishMavenStyle := true
