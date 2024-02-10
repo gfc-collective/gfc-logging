@@ -28,7 +28,7 @@ ScoverageKeys.coverageMinimumStmtTotal := 52.0
 libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.36",
   "org.slf4j" % "slf4j-simple" % "1.7.36" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.14" % Test
+  "org.scalatest" %% "scalatest" % "3.2.17" % Test
 )
 
 publishMavenStyle := true
