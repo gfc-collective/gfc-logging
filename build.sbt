@@ -6,7 +6,7 @@ organization := "org.gfccollective"
 
 scalaVersion := "2.12.18"
 
-crossScalaVersions := Seq(scalaVersion.value, "2.13.12", "3.4.0")
+crossScalaVersions := Seq(scalaVersion.value, "2.13.12", "3.4.3")
 
 javacOptions ++= Seq("-target", "1.8")
 
