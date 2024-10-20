@@ -26,8 +26,8 @@ ScoverageKeys.coverageFailOnMinimum := true
 ScoverageKeys.coverageMinimumStmtTotal := 52.0
 
 libraryDependencies ++= Seq(
-  "org.slf4j" % "slf4j-api" % "2.0.12",
-  "org.slf4j" % "slf4j-simple" % "2.0.12" % Test,
+  "org.slf4j" % "slf4j-api" % "2.0.16",
+  "org.slf4j" % "slf4j-simple" % "2.0.16" % Test,
   "org.scalatest" %% "scalatest" % "3.2.18" % Test
 )
 
